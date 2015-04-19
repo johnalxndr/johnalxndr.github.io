@@ -2,7 +2,7 @@
 
 angular.module('portfolio')
   .controller('MainCtrl', function ($scope) {
-    
+
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -17,9 +17,4 @@ $(function() {
     }
   });
 });
-    
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-});
-
 });

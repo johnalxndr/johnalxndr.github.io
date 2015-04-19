@@ -78,8 +78,9 @@ header {
                 border-bottom: 1px solid red;
                 text-decoration: none;
             }
-            a:visited {
+            a:focus {
                 text-decoration: none;
+                @extend a.hover;
             }
         }
     }
@@ -99,6 +100,7 @@ header {
 }
 
 //--------ABOUT---------------
+
 .about {
     background-color: #ffffff;
     padding-bottom: 5em;
@@ -108,7 +110,7 @@ header {
         font-size: 4em;
     }
     .social-icons {
-        margin-top: 5em;
+        margin-top: 9em;
         text-align: center;
         li {
             text-decoration: none;
@@ -307,6 +309,7 @@ footer {
         }
     }
 }
+
 
 // injector
 // endinjector
