@@ -203,14 +203,6 @@ header {
     }
     .portfolio-item {
         margin-top: 2em;
-        a{
-            
-            img{
-                &:hover{
-                      -webkit-filter: blur(5px);
-                }
-            }
-        }
         .bq {
             float: right;
         }
